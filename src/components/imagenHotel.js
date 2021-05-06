@@ -39,7 +39,7 @@ const ImagenHotel = () => {
     // ORIGINAL => 6.4MB, GRAPHQL => 1.3MB
     const { image } = useStaticQuery(graphql`
     query {
-        image: file(relativePath : {eq: "9.jpg"}) {
+        image: file(relativePath : {eq: "8.jpg"}) {
             sharp: childImageSharp {
                 fluid {
                     ...GatsbyImageSharpFluid_withWebp
